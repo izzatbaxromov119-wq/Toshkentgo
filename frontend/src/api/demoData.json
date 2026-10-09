@@ -1,0 +1,2015 @@
+{
+ "categories": [
+  {
+   "id": 1,
+   "name": "Biznes ma'lumotnoma",
+   "slug": "biznes",
+   "parent": null
+  },
+  {
+   "id": 2,
+   "name": "Avtosalonlar",
+   "slug": "avtosalon",
+   "parent": 1
+  },
+  {
+   "id": 3,
+   "name": "Ijaradagi joylar",
+   "slug": "ijara",
+   "parent": 1
+  },
+  {
+   "id": 4,
+   "name": "Turistik obyektlar",
+   "slug": "turistik",
+   "parent": 1
+  },
+  {
+   "id": 5,
+   "name": "Ovqatlanish",
+   "slug": "ovqatlanish",
+   "parent": null
+  },
+  {
+   "id": 6,
+   "name": "Fast food",
+   "slug": "fast-food",
+   "parent": 5
+  },
+  {
+   "id": 7,
+   "name": "Milliy taomlar",
+   "slug": "milliy-taom",
+   "parent": 5
+  },
+  {
+   "id": 8,
+   "name": "Turk taomlari",
+   "slug": "turk-taom",
+   "parent": 5
+  },
+  {
+   "id": 9,
+   "name": "Kiyim-kechak",
+   "slug": "kiyim",
+   "parent": null
+  },
+  {
+   "id": 10,
+   "name": "Erkaklar kiyimi",
+   "slug": "kiyim-erkak",
+   "parent": 9
+  },
+  {
+   "id": 11,
+   "name": "Ayollar kiyimi",
+   "slug": "kiyim-ayol",
+   "parent": 9
+  },
+  {
+   "id": 12,
+   "name": "Bolalar kiyimi",
+   "slug": "kiyim-bola",
+   "parent": 9
+  },
+  {
+   "id": 13,
+   "name": "Ta'lim va bolalar",
+   "slug": "talim",
+   "parent": null
+  },
+  {
+   "id": 14,
+   "name": "Kichik bog'chalar",
+   "slug": "bogcha",
+   "parent": 13
+  },
+  {
+   "id": 15,
+   "name": "O'quv markazlari",
+   "slug": "oquv-markaz",
+   "parent": 13
+  },
+  {
+   "id": 16,
+   "name": "Sport",
+   "slug": "sport",
+   "parent": null
+  },
+  {
+   "id": 17,
+   "name": "Gimnastika",
+   "slug": "gimnastika",
+   "parent": 16
+  },
+  {
+   "id": 18,
+   "name": "Boks",
+   "slug": "boks",
+   "parent": 16
+  },
+  {
+   "id": 19,
+   "name": "Fitness",
+   "slug": "fitness",
+   "parent": 16
+  }
+ ],
+ "places": [
+  {
+   "id": 31,
+   "name": "Elite Fitness Club",
+   "slug": "elite-fitness-club",
+   "category_name": "Fitness",
+   "category_slug": "fitness",
+   "price_level": "premium",
+   "price_from": 800000,
+   "price_unit": "oy",
+   "price_text": "800 000 so'm / oy",
+   "discount_percent": 15,
+   "discount_text": "Yillik obunaga",
+   "discount_until": "2026-11-11",
+   "discount_price_text": "680 000 so'm / oy",
+   "region": "city",
+   "district": "Mirobod",
+   "address": "Mustaqillik maydoni yaqinida",
+   "latitude": "41.306500",
+   "longitude": "69.278000",
+   "phone": "+998 78 122 64 13",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Trenajyor zali, basseyn, sauna, shaxsiy trener.",
+   "offerings": "Trenajyor zali, basseyn, sauna, shaxsiy trener.",
+   "working_hours": "06:00–23:00",
+   "call_center_hours": "",
+   "email": "info@elite-fitness-club.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 19,
+    "name": "Fitness",
+    "slug": "fitness",
+    "parent": 16
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Grace Gimnastika Studiyasi",
+   "slug": "grace-gimnastika-studiyasi",
+   "category_name": "Gimnastika",
+   "category_slug": "gimnastika",
+   "price_level": "standard",
+   "price_from": 400000,
+   "price_unit": "oy",
+   "price_text": "400 000 so'm / oy",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yunusobod",
+   "address": "Yunusobod 4-mavze",
+   "latitude": "41.360000",
+   "longitude": "69.280000",
+   "phone": "+998 78 122 64 12",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Bolalar badiiy va sport gimnastikasi.",
+   "offerings": "Bolalar badiiy va sport gimnastikasi.",
+   "working_hours": "09:00–20:00",
+   "call_center_hours": "",
+   "email": "info@grace-gimnastika-studiyasi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 17,
+    "name": "Gimnastika",
+    "slug": "gimnastika",
+    "parent": 16
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Chempion Boks Klubi",
+   "slug": "chempion-boks-klubi",
+   "category_name": "Boks",
+   "category_slug": "boks",
+   "price_level": "budget",
+   "price_from": 250000,
+   "price_unit": "oy",
+   "price_text": "250 000 so'm / oy",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Chilonzor",
+   "address": "Chilonzor 9-kvartal",
+   "latitude": "41.280000",
+   "longitude": "69.205000",
+   "phone": "+998 78 122 64 11",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "parking"
+   ],
+   "is_favorite": false,
+   "description": "Bolalar va kattalar uchun boks mashg'ulotlari.",
+   "offerings": "Bolalar va kattalar uchun boks mashg'ulotlari.",
+   "working_hours": "07:00–21:00",
+   "call_center_hours": "",
+   "email": "info@chempion-boks-klubi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 18,
+    "name": "Boks",
+    "slug": "boks",
+    "parent": 16
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Zukko O'quv Markazi",
+   "slug": "zukko-oquv-markazi",
+   "category_name": "O'quv markazlari",
+   "category_slug": "oquv-markaz",
+   "price_level": "standard",
+   "price_from": 450000,
+   "price_unit": "oy",
+   "price_text": "450 000 so'm / oy",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Olmazor",
+   "address": "Olmazor, Talabalar ko'chasi, 3",
+   "latitude": "41.340000",
+   "longitude": "69.220000",
+   "phone": "+998 78 122 64 10",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Ingliz tili va matematika kurslari.",
+   "offerings": "Ingliz tili va matematika kurslari.",
+   "working_hours": "09:00–20:00",
+   "call_center_hours": "",
+   "email": "info@zukko-oquv-markazi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 15,
+    "name": "O'quv markazlari",
+    "slug": "oquv-markaz",
+    "parent": 13
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Quvnoq Bog'cha",
+   "slug": "quvnoq-bogcha",
+   "category_name": "Kichik bog'chalar",
+   "category_slug": "bogcha",
+   "price_level": "premium",
+   "price_from": 1200000,
+   "price_unit": "oy",
+   "price_text": "1 200 000 so'm / oy",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yakkasaroy",
+   "address": "Yakkasaroy ko'chasi, 15",
+   "latitude": "41.290000",
+   "longitude": "69.260000",
+   "phone": "+998 78 122 64 09",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "3–6 yosh bolalar uchun kichik guruhli bog'cha.",
+   "offerings": "3–6 yosh bolalar uchun kichik guruhli bog'cha.",
+   "working_hours": "07:30–18:30",
+   "call_center_hours": "",
+   "email": "info@quvnoq-bogcha.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 14,
+    "name": "Kichik bog'chalar",
+    "slug": "bogcha",
+    "parent": 13
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Kichkintoy Premium",
+   "slug": "kichkintoy-premium",
+   "category_name": "Bolalar kiyimi",
+   "category_slug": "kiyim-bola",
+   "price_level": "standard",
+   "price_from": 320000,
+   "price_unit": "dan",
+   "price_text": "320 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yunusobod",
+   "address": "Yunusobod 11-mavze",
+   "latitude": "41.370000",
+   "longitude": "69.280000",
+   "phone": "+998 78 122 64 58",
+   "call_center": "+998 71 200 20 09",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Import bolalar kiyimlari, tug'ilgan kun to'plamlari.",
+   "offerings": "Import bolalar kiyimlari, tug'ilgan kun to'plamlari.",
+   "working_hours": "10:00–21:00",
+   "call_center_hours": "09:00–21:00",
+   "email": "info@kichkintoy-premium.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 12,
+    "name": "Bolalar kiyimi",
+    "slug": "kiyim-bola",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Bolajon Kiyim Olami",
+   "slug": "bolajon-kiyim-olami",
+   "category_name": "Bolalar kiyimi",
+   "category_slug": "kiyim-bola",
+   "price_level": "budget",
+   "price_from": 90000,
+   "price_unit": "dan",
+   "price_text": "90 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Uchtepa",
+   "address": "Uchtepa, Kichik halqa yo'li, 7",
+   "latitude": "41.296700",
+   "longitude": "69.185600",
+   "phone": "+998 78 122 64 07",
+   "call_center": "+998 71 200 20 08",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "parking"
+   ],
+   "is_favorite": false,
+   "description": "0–12 yosh bolalar uchun kiyimlar.",
+   "offerings": "0–12 yosh bolalar uchun kiyimlar.",
+   "working_hours": "10:00–20:00",
+   "call_center_hours": "09:00–20:00",
+   "email": "info@bolajon-kiyim-olami.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 12,
+    "name": "Bolalar kiyimi",
+    "slug": "kiyim-bola",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Lola Boutique",
+   "slug": "lola-boutique",
+   "category_name": "Ayollar kiyimi",
+   "category_slug": "kiyim-ayol",
+   "price_level": "premium",
+   "price_from": 850000,
+   "price_unit": "dan",
+   "price_text": "850 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yakkasaroy",
+   "address": "Yakkasaroy ko'chasi, 12",
+   "latitude": "41.295000",
+   "longitude": "69.262000",
+   "phone": "+998 78 122 64 57",
+   "call_center": "+998 71 200 20 07",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Kechki liboslar va dizayner kolleksiyalari.",
+   "offerings": "Kechki liboslar va dizayner kolleksiyalari.",
+   "working_hours": "11:00–20:00",
+   "call_center_hours": "10:00–20:00",
+   "email": "info@lola-boutique.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 11,
+    "name": "Ayollar kiyimi",
+    "slug": "kiyim-ayol",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Ayol Trend Outlet",
+   "slug": "ayol-trend-outlet",
+   "category_name": "Ayollar kiyimi",
+   "category_slug": "kiyim-ayol",
+   "price_level": "budget",
+   "price_from": 120000,
+   "price_unit": "dan",
+   "price_text": "120 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Sergeli",
+   "address": "Sergeli, Qatortol ko'chasi",
+   "latitude": "41.225600",
+   "longitude": "69.228900",
+   "phone": "+998 78 122 64 56",
+   "call_center": "+998 71 200 20 06",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "parking"
+   ],
+   "is_favorite": false,
+   "description": "Ko'ylak, yubka va kundalik kiyimlar arzon narxda.",
+   "offerings": "Ko'ylak, yubka va kundalik kiyimlar arzon narxda.",
+   "working_hours": "09:00–19:00",
+   "call_center_hours": "09:00–19:00",
+   "email": "info@ayol-trend-outlet.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "",
+   "category": {
+    "id": 11,
+    "name": "Ayollar kiyimi",
+    "slug": "kiyim-ayol",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Elegance Ayollar Kiyimi",
+   "slug": "elegance-ayollar-kiyimi",
+   "category_name": "Ayollar kiyimi",
+   "category_slug": "kiyim-ayol",
+   "price_level": "standard",
+   "price_from": 350000,
+   "price_unit": "dan",
+   "price_text": "350 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirzo Ulug'bek",
+   "address": "Mirzo Ulug'bek ko'chasi, 44",
+   "latitude": "41.338000",
+   "longitude": "69.334000",
+   "phone": "+998 78 122 64 55",
+   "call_center": "+998 71 200 20 05",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Zamonaviy ayollar kiyimlari va aksessuarlar.",
+   "offerings": "Zamonaviy ayollar kiyimlari va aksessuarlar.",
+   "working_hours": "10:00–21:00",
+   "call_center_hours": "09:00–21:00",
+   "email": "info@elegance-ayollar-kiyimi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 11,
+    "name": "Ayollar kiyimi",
+    "slug": "kiyim-ayol",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Milano Men Premium",
+   "slug": "milano-men-premium",
+   "category_name": "Erkaklar kiyimi",
+   "category_slug": "kiyim-erkak",
+   "price_level": "premium",
+   "price_from": 1200000,
+   "price_unit": "dan",
+   "price_text": "1 200 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirobod",
+   "address": "Amir Temur shoh ko'chasi, 15",
+   "latitude": "41.307200",
+   "longitude": "69.276200",
+   "phone": "+998 78 122 64 54",
+   "call_center": "+998 71 200 20 04",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Italiya brendlari, buyurtma asosida tikish.",
+   "offerings": "Italiya brendlari, buyurtma asosida tikish.",
+   "working_hours": "11:00–21:00",
+   "call_center_hours": "09:00–21:00",
+   "email": "info@milano-men-premium.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 10,
+    "name": "Erkaklar kiyimi",
+    "slug": "kiyim-erkak",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Gentleman Classic",
+   "slug": "gentleman-classic",
+   "category_name": "Erkaklar kiyimi",
+   "category_slug": "kiyim-erkak",
+   "price_level": "standard",
+   "price_from": 420000,
+   "price_unit": "dan",
+   "price_text": "420 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirobod",
+   "address": "Mirobod ko'chasi, 30",
+   "latitude": "41.289000",
+   "longitude": "69.274000",
+   "phone": "+998 78 122 64 53",
+   "call_center": "+998 71 200 20 03",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Klassik kostyum, ko'ylak va poyabzal.",
+   "offerings": "Klassik kostyum, ko'ylak va poyabzal.",
+   "working_hours": "10:00–20:00",
+   "call_center_hours": "09:00–20:00",
+   "email": "info@gentleman-classic.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 10,
+    "name": "Erkaklar kiyimi",
+    "slug": "kiyim-erkak",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Urban Boys",
+   "slug": "urban-boys",
+   "category_name": "Erkaklar kiyimi",
+   "category_slug": "kiyim-erkak",
+   "price_level": "budget",
+   "price_from": 110000,
+   "price_unit": "dan",
+   "price_text": "110 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yunusobod",
+   "address": "Yunusobod, Minor mavzesi",
+   "latitude": "41.369000",
+   "longitude": "69.290000",
+   "phone": "+998 78 122 64 52",
+   "call_center": "+998 71 200 20 02",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Yoshlar uchun ko'cha uslubidagi kiyimlar.",
+   "offerings": "Yoshlar uchun ko'cha uslubidagi kiyimlar.",
+   "working_hours": "10:00–21:00",
+   "call_center_hours": "09:00–21:00",
+   "email": "info@urban-boys.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 10,
+    "name": "Erkaklar kiyimi",
+    "slug": "kiyim-erkak",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Erkaklar Olami",
+   "slug": "erkaklar-olami",
+   "category_name": "Erkaklar kiyimi",
+   "category_slug": "kiyim-erkak",
+   "price_level": "budget",
+   "price_from": 150000,
+   "price_unit": "dan",
+   "price_text": "150 000 so'mdan",
+   "discount_percent": 30,
+   "discount_text": "Barcha erkaklar kiyimiga",
+   "discount_until": "2026-10-27",
+   "discount_price_text": "105 000 so'mdan",
+   "region": "city",
+   "district": "Shayxontohur",
+   "address": "Chorsu savdo majmuasi, 2-qavat",
+   "latitude": "41.325000",
+   "longitude": "69.233000",
+   "phone": "+998 78 122 64 51",
+   "call_center": "+998 71 200 20 01",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Futbolka, ko'ylak, jinsi va kundalik kiyimlar.",
+   "offerings": "Futbolka, ko'ylak, jinsi va kundalik kiyimlar.",
+   "working_hours": "09:00–18:00",
+   "call_center_hours": "09:00–20:00",
+   "email": "info@erkaklar-olami.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 10,
+    "name": "Erkaklar kiyimi",
+    "slug": "kiyim-erkak",
+    "parent": 9
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Bosphorus Grand Restaurant",
+   "slug": "bosphorus-grand-restaurant",
+   "category_name": "Turk taomlari",
+   "category_slug": "turk-taom",
+   "price_level": "premium",
+   "price_from": 320000,
+   "price_unit": "kishi",
+   "price_text": "320 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirobod",
+   "address": "Mustaqillik shoh ko'chasi, 12",
+   "latitude": "41.304000",
+   "longitude": "69.283000",
+   "phone": "+998 78 122 64 44",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Boshfor manzarali zal, turk milliy taomlari va shirinliklari.",
+   "offerings": "Boshfor manzarali zal, turk milliy taomlari va shirinliklari.",
+   "working_hours": "12:00–00:00",
+   "call_center_hours": "",
+   "email": "info@bosphorus-grand-restaurant.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 8,
+    "name": "Turk taomlari",
+    "slug": "turk-taom",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Anadolu Kebab House",
+   "slug": "anadolu-kebab-house",
+   "category_name": "Turk taomlari",
+   "category_slug": "turk-taom",
+   "price_level": "standard",
+   "price_from": 140000,
+   "price_unit": "kishi",
+   "price_text": "140 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Shayxontohur",
+   "address": "Navoiy ko'chasi, 55",
+   "latitude": "41.321000",
+   "longitude": "69.245000",
+   "phone": "+998 78 122 64 43",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Adana, iskender va turli xil kebablar.",
+   "offerings": "Adana, iskender va turli xil kebablar.",
+   "working_hours": "11:00–00:00",
+   "call_center_hours": "",
+   "email": "info@anadolu-kebab-house.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 8,
+    "name": "Turk taomlari",
+    "slug": "turk-taom",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Lahmacun & Pide Ustasi",
+   "slug": "lahmacun-pide-ustasi",
+   "category_name": "Turk taomlari",
+   "category_slug": "turk-taom",
+   "price_level": "budget",
+   "price_from": 55000,
+   "price_unit": "kishi",
+   "price_text": "55 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Olmazor",
+   "address": "Olmazor, Talabalar ko'chasi, 8",
+   "latitude": "41.339000",
+   "longitude": "69.217000",
+   "phone": "+998 78 122 64 42",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "delivery"
+   ],
+   "is_favorite": false,
+   "description": "Tandirda pishirilgan lahmacun va pide.",
+   "offerings": "Tandirda pishirilgan lahmacun va pide.",
+   "working_hours": "10:00–23:00",
+   "call_center_hours": "",
+   "email": "info@lahmacun-pide-ustasi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "",
+   "category": {
+    "id": 8,
+    "name": "Turk taomlari",
+    "slug": "turk-taom",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 4,
+     "name": "Yetkazib berish",
+     "icon": "delivery"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Istanbul Doner",
+   "slug": "istanbul-doner",
+   "category_name": "Turk taomlari",
+   "category_slug": "turk-taom",
+   "price_level": "budget",
+   "price_from": 40000,
+   "price_unit": "kishi",
+   "price_text": "40 000 so'm / kishi",
+   "discount_percent": 25,
+   "discount_text": "Ikkinchi porsiyaga",
+   "discount_until": "2026-10-12",
+   "discount_price_text": "30 000 so'm / kishi",
+   "region": "city",
+   "district": "Chilonzor",
+   "address": "Chilonzor 9-kvartal",
+   "latitude": "41.281000",
+   "longitude": "69.210000",
+   "phone": "+998 78 122 64 41",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "delivery"
+   ],
+   "is_favorite": false,
+   "description": "Tovuq va mol go'shtidan doner, ayran.",
+   "offerings": "Tovuq va mol go'shtidan doner, ayran.",
+   "working_hours": "10:00–23:00",
+   "call_center_hours": "",
+   "email": "info@istanbul-doner.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 8,
+    "name": "Turk taomlari",
+    "slug": "turk-taom",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 4,
+     "name": "Yetkazib berish",
+     "icon": "delivery"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Registon Milliy Restoran",
+   "slug": "registon-milliy-restoran",
+   "category_name": "Milliy taomlar",
+   "category_slug": "milliy-taom",
+   "price_level": "premium",
+   "price_from": 280000,
+   "price_unit": "kishi",
+   "price_text": "280 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirobod",
+   "address": "Amir Temur shoh ko'chasi, 4",
+   "latitude": "41.305800",
+   "longitude": "69.279400",
+   "phone": "+998 78 122 64 33",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "To'y va bazmlar uchun zallar, milliy shou-dastur.",
+   "offerings": "To'y va bazmlar uchun zallar, milliy shou-dastur.",
+   "working_hours": "12:00–00:00",
+   "call_center_hours": "",
+   "email": "info@registon-milliy-restoran.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 7,
+    "name": "Milliy taomlar",
+    "slug": "milliy-taom",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Dasturxon Milliy Taomlar",
+   "slug": "dasturxon-milliy-taomlar",
+   "category_name": "Milliy taomlar",
+   "category_slug": "milliy-taom",
+   "price_level": "standard",
+   "price_from": 130000,
+   "price_unit": "kishi",
+   "price_text": "130 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yakkasaroy",
+   "address": "Yakkasaroy ko'chasi, 40",
+   "latitude": "41.292000",
+   "longitude": "69.258000",
+   "phone": "+998 78 122 64 32",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Somsa, manti, lag'mon, shashlik va nonlar.",
+   "offerings": "Somsa, manti, lag'mon, shashlik va nonlar.",
+   "working_hours": "10:00–23:00",
+   "call_center_hours": "",
+   "email": "info@dasturxon-milliy-taomlar.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 7,
+    "name": "Milliy taomlar",
+    "slug": "milliy-taom",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Toshkent Plov Markazi",
+   "slug": "toshkent-plov-markazi",
+   "category_name": "Milliy taomlar",
+   "category_slug": "milliy-taom",
+   "price_level": "budget",
+   "price_from": 45000,
+   "price_unit": "kishi",
+   "price_text": "45 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Shayxontohur",
+   "address": "Chorsu bozori yonida",
+   "latitude": "41.322400",
+   "longitude": "69.228700",
+   "phone": "+998 78 122 64 31",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "parking"
+   ],
+   "is_favorite": false,
+   "description": "Har kuni yangi dam qilingan sof Toshkent oshi.",
+   "offerings": "Har kuni yangi dam qilingan sof Toshkent oshi.",
+   "working_hours": "11:00–15:00",
+   "call_center_hours": "",
+   "email": "info@toshkent-plov-markazi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "",
+   "category": {
+    "id": 7,
+    "name": "Milliy taomlar",
+    "slug": "milliy-taom",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Prime Burger Lounge",
+   "slug": "prime-burger-lounge",
+   "category_name": "Fast food",
+   "category_slug": "fast-food",
+   "price_level": "premium",
+   "price_from": 230000,
+   "price_unit": "kishi",
+   "price_text": "230 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirobod",
+   "address": "Mirobod ko'chasi, 21",
+   "latitude": "41.288000",
+   "longitude": "69.272000",
+   "phone": "+998 78 122 64 24",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Premium mol go'shtidan gurme burgerlar va kraft ichimliklar.",
+   "offerings": "Premium mol go'shtidan gurme burgerlar va kraft ichimliklar.",
+   "working_hours": "12:00–02:00",
+   "call_center_hours": "",
+   "email": "info@prime-burger-lounge.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 6,
+    "name": "Fast food",
+    "slug": "fast-food",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Crispy Chicken Point",
+   "slug": "crispy-chicken-point",
+   "category_name": "Fast food",
+   "category_slug": "fast-food",
+   "price_level": "standard",
+   "price_from": 95000,
+   "price_unit": "kishi",
+   "price_text": "95 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirzo Ulug'bek",
+   "address": "Mirzo Ulug'bek ko'chasi, 61",
+   "latitude": "41.335000",
+   "longitude": "69.330000",
+   "phone": "+998 78 122 64 23",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac",
+    "delivery"
+   ],
+   "is_favorite": false,
+   "description": "Qarsildoq tovuq, wings va sous turlari.",
+   "offerings": "Qarsildoq tovuq, wings va sous turlari.",
+   "working_hours": "10:00–01:00",
+   "call_center_hours": "",
+   "email": "info@crispy-chicken-point.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 6,
+    "name": "Fast food",
+    "slug": "fast-food",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    },
+    {
+     "id": 4,
+     "name": "Yetkazib berish",
+     "icon": "delivery"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Lavash House",
+   "slug": "lavash-house",
+   "category_name": "Fast food",
+   "category_slug": "fast-food",
+   "price_level": "budget",
+   "price_from": 27000,
+   "price_unit": "kishi",
+   "price_text": "27 000 so'm / kishi",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yunusobod",
+   "address": "Yunusobod 9-mavze",
+   "latitude": "41.366000",
+   "longitude": "69.284000",
+   "phone": "+998 78 122 64 22",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "delivery"
+   ],
+   "is_favorite": false,
+   "description": "Tovuq va mol go'shtidan lavash, hot-dog.",
+   "offerings": "Tovuq va mol go'shtidan lavash, hot-dog.",
+   "working_hours": "09:00–23:00",
+   "call_center_hours": "",
+   "email": "info@lavash-house.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "",
+   "category": {
+    "id": 6,
+    "name": "Fast food",
+    "slug": "fast-food",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 4,
+     "name": "Yetkazib berish",
+     "icon": "delivery"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Burger Zone",
+   "slug": "burger-zone",
+   "category_name": "Fast food",
+   "category_slug": "fast-food",
+   "price_level": "budget",
+   "price_from": 32000,
+   "price_unit": "kishi",
+   "price_text": "32 000 so'm / kishi",
+   "discount_percent": 20,
+   "discount_text": "Combo menyularga",
+   "discount_until": "2026-10-16",
+   "discount_price_text": "25 600 so'm / kishi",
+   "region": "city",
+   "district": "Chilonzor",
+   "address": "Chilonzor 7-kvartal",
+   "latitude": "41.279000",
+   "longitude": "69.206000",
+   "phone": "+998 78 122 64 21",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "delivery"
+   ],
+   "is_favorite": false,
+   "description": "Burger, kartoshka fri va ichimliklar. Combo menyular.",
+   "offerings": "Burger, kartoshka fri va ichimliklar. Combo menyular.",
+   "working_hours": "10:00–00:00",
+   "call_center_hours": "",
+   "email": "info@burger-zone.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 6,
+    "name": "Fast food",
+    "slug": "fast-food",
+    "parent": 5
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 4,
+     "name": "Yetkazib berish",
+     "icon": "delivery"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Avto Markaz Toshkent",
+   "slug": "avto-markaz-toshkent",
+   "category_name": "Avtosalonlar",
+   "category_slug": "avtosalon",
+   "price_level": "budget",
+   "price_from": 100000,
+   "price_unit": "dan",
+   "price_text": "100 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Sergeli",
+   "address": "Yangi Sergeli yo'li, 20",
+   "latitude": "41.225000",
+   "longitude": "69.220000",
+   "phone": "+998 78 122 64 05",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking"
+   ],
+   "is_favorite": false,
+   "description": "Yangi va ishlatilgan yengil avtomobillar savdosi, servis.",
+   "offerings": "Yangi va ishlatilgan yengil avtomobillar savdosi, servis.",
+   "working_hours": "09:00–19:00",
+   "call_center_hours": "",
+   "email": "info@avto-markaz-toshkent.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 2,
+    "name": "Avtosalonlar",
+    "slug": "avtosalon",
+    "parent": 1
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Chirchiq Dam Olish Maskani",
+   "slug": "chirchiq-dam-olish-maskani",
+   "category_name": "Turistik obyektlar",
+   "category_slug": "turistik",
+   "price_level": "budget",
+   "price_from": 200000,
+   "price_unit": "kun",
+   "price_text": "200 000 so'm / kun",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "province",
+   "district": "Chirchiq",
+   "address": "Chirchiq daryosi bo'yi",
+   "latitude": "41.469000",
+   "longitude": "69.582000",
+   "phone": "+998 78 122 64 14",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "parking"
+   ],
+   "is_favorite": false,
+   "description": "Tabiat qo'ynida dam olish uylari.",
+   "offerings": "Tabiat qo'ynida dam olish uylari.",
+   "working_hours": "08:00–22:00",
+   "call_center_hours": "",
+   "email": "info@chirchiq-dam-olish-maskani.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 4,
+    "name": "Turistik obyektlar",
+    "slug": "turistik",
+    "parent": 1
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Tele Minora Ko'rgazma Nuqtasi",
+   "slug": "tele-minora-korgazma-nuqtasi",
+   "category_name": "Turistik obyektlar",
+   "category_slug": "turistik",
+   "price_level": "budget",
+   "price_from": 80000,
+   "price_unit": "dan",
+   "price_text": "80 000 so'mdan",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yunusobod",
+   "address": "Furqat ko'chasi, 2",
+   "latitude": "41.339600",
+   "longitude": "69.285200",
+   "phone": "+998 78 122 64 04",
+   "call_center": "",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "parking"
+   ],
+   "is_favorite": false,
+   "description": "Teleminora tomosha maydonchasi va muzey.",
+   "offerings": "Teleminora tomosha maydonchasi va muzey.",
+   "working_hours": "10:00–21:00",
+   "call_center_hours": "",
+   "email": "info@tele-minora-korgazma-nuqtasi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "",
+   "category": {
+    "id": 4,
+    "name": "Turistik obyektlar",
+    "slug": "turistik",
+    "parent": 1
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Panorama Grand Hotel",
+   "slug": "panorama-grand-hotel",
+   "category_name": "Ijaradagi joylar",
+   "category_slug": "ijara",
+   "price_level": "premium",
+   "price_from": 950000,
+   "price_unit": "kecha",
+   "price_text": "950 000 so'm / kecha",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Mirobod",
+   "address": "Mirobod ko'chasi, 5",
+   "latitude": "41.287000",
+   "longitude": "69.270000",
+   "phone": "+998 78 122 64 03",
+   "call_center": "+998 71 200 10 03",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "5 yulduzli mehmonxona, shahar manzarasi.",
+   "offerings": "5 yulduzli mehmonxona, shahar manzarasi.",
+   "working_hours": "24/7",
+   "call_center_hours": "24/7",
+   "email": "info@panorama-grand-hotel.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 3,
+    "name": "Ijaradagi joylar",
+    "slug": "ijara",
+    "parent": 1
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Yunusobod Apart",
+   "slug": "yunusobod-apart",
+   "category_name": "Ijaradagi joylar",
+   "category_slug": "ijara",
+   "price_level": "standard",
+   "price_from": 420000,
+   "price_unit": "kecha",
+   "price_text": "420 000 so'm / kecha",
+   "discount_percent": null,
+   "discount_text": "",
+   "discount_until": null,
+   "discount_price_text": null,
+   "region": "city",
+   "district": "Yunusobod",
+   "address": "Amir Temur shoh ko'chasi, 88",
+   "latitude": "41.364000",
+   "longitude": "69.287000",
+   "phone": "+998 78 122 64 02",
+   "call_center": "+998 71 200 10 02",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "parking",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Oilaviy apartamentlar, oshxonasi bor.",
+   "offerings": "Oilaviy apartamentlar, oshxonasi bor.",
+   "working_hours": "24/7",
+   "call_center_hours": "24/7",
+   "email": "info@yunusobod-apart.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 3,
+    "name": "Ijaradagi joylar",
+    "slug": "ijara",
+    "parent": 1
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 2,
+     "name": "Avtoturargoh",
+     "icon": "parking"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "name": "Chilonzor Mehmon Uyi",
+   "slug": "chilonzor-mehmon-uyi",
+   "category_name": "Ijaradagi joylar",
+   "category_slug": "ijara",
+   "price_level": "budget",
+   "price_from": 150000,
+   "price_unit": "kecha",
+   "price_text": "150 000 so'm / kecha",
+   "discount_percent": 10,
+   "discount_text": "Hafta kunlari band qilinsa",
+   "discount_until": "2026-10-22",
+   "discount_price_text": "135 000 so'm / kecha",
+   "region": "city",
+   "district": "Chilonzor",
+   "address": "Bunyodkor ko'chasi, 12",
+   "latitude": "41.275300",
+   "longitude": "69.203500",
+   "phone": "+998 78 122 64 01",
+   "call_center": "+998 71 200 10 01",
+   "rating_avg": "0.0",
+   "reviews_count": 0,
+   "main_image": null,
+   "amenities": [
+    "wifi",
+    "ac"
+   ],
+   "is_favorite": false,
+   "description": "Qulay va arzon xonalar, nonushta kiritilgan.",
+   "offerings": "Qulay va arzon xonalar, nonushta kiritilgan.",
+   "working_hours": "24/7",
+   "call_center_hours": "24/7",
+   "email": "info@chilonzor-mehmon-uyi.example.uz",
+   "website": "",
+   "instagram": "https://instagram.com/",
+   "telegram": "https://t.me/",
+   "facebook": "https://facebook.com/",
+   "category": {
+    "id": 3,
+    "name": "Ijaradagi joylar",
+    "slug": "ijara",
+    "parent": 1
+   },
+   "images": [],
+   "amenity_list": [
+    {
+     "id": 1,
+     "name": "Wi-Fi",
+     "icon": "wifi"
+    },
+    {
+     "id": 3,
+     "name": "Konditsioner",
+     "icon": "ac"
+    }
+   ]
+  }
+ ],
+ "reviews": {
+  "elite-fitness-club": [],
+  "grace-gimnastika-studiyasi": [],
+  "chempion-boks-klubi": [],
+  "zukko-oquv-markazi": [],
+  "quvnoq-bogcha": [],
+  "kichkintoy-premium": [],
+  "bolajon-kiyim-olami": [],
+  "lola-boutique": [],
+  "ayol-trend-outlet": [],
+  "elegance-ayollar-kiyimi": [],
+  "milano-men-premium": [],
+  "gentleman-classic": [],
+  "urban-boys": [],
+  "erkaklar-olami": [],
+  "bosphorus-grand-restaurant": [],
+  "anadolu-kebab-house": [],
+  "lahmacun-pide-ustasi": [],
+  "istanbul-doner": [],
+  "registon-milliy-restoran": [],
+  "dasturxon-milliy-taomlar": [],
+  "toshkent-plov-markazi": [],
+  "prime-burger-lounge": [],
+  "crispy-chicken-point": [],
+  "lavash-house": [],
+  "burger-zone": [],
+  "avto-markaz-toshkent": [],
+  "chirchiq-dam-olish-maskani": [],
+  "tele-minora-korgazma-nuqtasi": [],
+  "panorama-grand-hotel": [],
+  "yunusobod-apart": [],
+  "chilonzor-mehmon-uyi": []
+ },
+ "notifications": [
+  {
+   "id": 5,
+   "kind": "discount",
+   "title": "Elite Fitness Club: 15% chegirma",
+   "message": "Yillik obunaga",
+   "place_slug": "elite-fitness-club",
+   "place_name": "Elite Fitness Club",
+   "discount_percent": 15,
+   "created_at": "2026-10-02T19:09:17.789028+05:00"
+  },
+  {
+   "id": 4,
+   "kind": "discount",
+   "title": "Erkaklar Olami: 30% chegirma",
+   "message": "Barcha erkaklar kiyimiga",
+   "place_slug": "erkaklar-olami",
+   "place_name": "Erkaklar Olami",
+   "discount_percent": 30,
+   "created_at": "2026-10-02T19:09:17.681095+05:00"
+  },
+  {
+   "id": 3,
+   "kind": "discount",
+   "title": "Istanbul Doner: 25% chegirma",
+   "message": "Ikkinchi porsiyaga",
+   "place_slug": "istanbul-doner",
+   "place_name": "Istanbul Doner",
+   "discount_percent": 25,
+   "created_at": "2026-10-02T19:09:17.649369+05:00"
+  },
+  {
+   "id": 2,
+   "kind": "discount",
+   "title": "Burger Zone: 20% chegirma",
+   "message": "Combo menyularga",
+   "place_slug": "burger-zone",
+   "place_name": "Burger Zone",
+   "discount_percent": 20,
+   "created_at": "2026-10-02T19:09:17.589871+05:00"
+  },
+  {
+   "id": 1,
+   "kind": "discount",
+   "title": "Chilonzor Mehmon Uyi: 10% chegirma",
+   "message": "Hafta kunlari band qilinsa",
+   "place_slug": "chilonzor-mehmon-uyi",
+   "place_name": "Chilonzor Mehmon Uyi",
+   "discount_percent": 10,
+   "created_at": "2026-10-02T19:09:17.542067+05:00"
+  }
+ ]
+}

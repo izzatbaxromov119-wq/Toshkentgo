@@ -1,0 +1,11 @@
+﻿node_modules/
+.env
+.env.*
+!.env.example
+.idea/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+dist/
+build/

@@ -1,0 +1,2 @@
+# Faqat PostgreSQL ishlatilganda kerak (.env da DB_ENGINE=postgres bo'lsa)
+psycopg[binary]>=3.2
